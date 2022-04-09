@@ -1,0 +1,230 @@
+footer{
+    background: #000;
+    width: 100%;
+    .btn{
+        padding: 2px;
+        padding-left: 20px;
+        margin-top: 10px;
+        width: 100px;
+        height: 42px;
+        border-radius: 12px;
+        background: #fff;
+        border: none;
+        position: relative;
+        transition: all 0.3s;
+        color: #000;
+        &::before{
+            content: '';
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            margin-left: 5px;
+            background-color: #000;
+            border-radius: 14px;
+            left: 0;
+            top: 30%;
+            transition: 0.3s all;
+        }
+        &:hover{
+            background: #000;
+            color: #fff;
+            }
+        }
+    .first_footer{
+        text-align: center;
+        color: #fff;
+        padding-top: 113px;
+        h1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 42px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        h2{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #C0C0C0;
+        }
+    }
+    .second_footer{
+        padding-top: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #fff;
+        @media screen and (max-width: 769px) {
+            padding-top: 60px;
+            flex-direction: column;
+        }
+        &_logo{
+            @media screen and (max-width: 769px) {
+                text-align: center;
+            }
+            img{
+                height: 31px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #C0C0C0;
+            }
+        }
+        .second_footer_descr{
+            display: flex;
+            flex-direction: row;
+            @media screen and (max-width: 769px) {
+                padding-top: 30px;
+                align-items: center;
+                margin: 0 auto; 
+            }
+            h3{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #C0C0C0;
+            }
+            li{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+            &_first_list{
+                list-style: none;
+                width: 50%;
+            }
+            &_second_list{
+                list-style: none;
+                width: 50%;
+            }
+        }
+        
+    }
+    .trid_footer{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        justify-content: space-around;
+        @media screen and (max-width: 769px) {
+            flex-direction: column;
+        }
+        &_text{
+            h2{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            h3{
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #C0C0C0;
+            }
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+        }
+        .input{
+            position: relative;
+            width: 50%;
+            @media screen and (max-width: 769px) {
+                width: 100%;
+                padding-top: 20px;
+            }
+            input{
+                display: block;
+                position: relative;
+                width: 100%;
+                height: 52px;
+                background: #F9FAFB;
+                border: 1px solid #E5E7EB;
+                box-sizing: border-box;
+                border-radius: 12px;
+                padding: 1rem;
+            }
+            &_btn{
+                position: absolute;
+                top: 11px;
+                right: 5px;
+                width: 63px;
+                height: 30px;
+                background: #000000;
+                border-radius: 11px;
+                border-color: #000;
+                cursor: pointer;
+                transition: all 0.3s;
+                @media screen and (max-width: 769px) {
+                    top: 32px;
+                }
+                &:hover{
+                    color: #E5E7EB;
+                }
+            }
+        }
+    }
+    .four_footer{
+        color: #fff;
+        padding-top: 56px;
+        padding-bottom: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        @media screen and (max-width: 769px) {
+            flex-direction: column;
+        }
+        &_text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #C0C0C0;
+            @media screen and (max-width: 769px) {
+                text-align: center;
+            }
+        }
+        &_icons{
+            @media screen and (max-width: 769px) {
+                padding-top: 20px;
+                margin: 0 auto;
+            }
+            &_list{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                gap: 20px;
+                a{
+                    color: #fff;
+                    transition: all 0.3s;
+                    &:hover{
+                        color: chocolate;
+                    }
+                }
+            }
+        }
+    }
+}

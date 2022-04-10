@@ -103,7 +103,7 @@ main{
                 min-height: 450px;
                 width: 100%;
                 background: url('./img/IMAGE1.png') no-repeat;
-                background-size: 100%;
+                background-size: cover;
                 @media screen and (max-width: 426px) {
                     position: relative;
                     min-height: 300px
@@ -117,7 +117,7 @@ main{
                 min-height: 450px;
                 width: 100%;
                 background: url('./img/IMAGE2.png') no-repeat;
-                background-size: 100%;
+                background-size: cover;
                 @media screen and (max-width: 426px) {
                     position: relative;
                     min-height: 300px
@@ -129,7 +129,7 @@ main{
                 min-height: 450px;
                 width: 100%;
                 background: url('./img/IMAGE3.png') no-repeat;
-                background-size: 100%;
+                background-size: cover;
                 @media screen and (max-width: 426px) {
                     position: relative;
                     min-height: 300px
@@ -141,7 +141,7 @@ main{
                 min-height: 450px;
                 width: 100%;
                 background: url('./img/IMAGE4.png') no-repeat;
-                background-size: 100%;
+                background-size: cover;
                 @media screen and (max-width: 426px) {
                     position: relative;
                     min-height: 300px
@@ -168,7 +168,7 @@ main{
         width: 100%;
         margin-top: 100px;
         background: url('./img/second_img.png') no-repeat;
-        background-size: 100%;
+        background-size: cover;
         &_text{
             top: 60%;
             right: 10px;
@@ -227,7 +227,7 @@ main{
         &_img{
             position: relative;
             background: url('./img/trid_img.png') no-repeat;
-            background-size: 100%;
+            background-size: cover;
             width: 50%;
             min-height: 344px;
             overflow: hidden;
@@ -239,7 +239,7 @@ main{
     .four_section{
         position: relative;
         background: url('./img/four_bg.png') no-repeat;
-        background-size: 100%;
+        background-size: cover;
         height: 100vh;
         @media screen and (max-width: 661px) {
             padding-top: 30px;
@@ -291,7 +291,7 @@ main{
     .six_section{
         position: relative;
         background: url('./img/last_bg.png') no-repeat;
-        background-size: 100%;
+        background-size: cover;
         height: 100vh;
         &_text{
             top: 60%;
